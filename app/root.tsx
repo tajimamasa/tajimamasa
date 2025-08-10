@@ -58,5 +58,9 @@ export default function App() {
 }
 
 export function HydrateFallback() {
-	return <p>Loading...</p>;
+	return (
+		<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center">
+			<p className="text-xl text-gray-800 dark:text-gray-100">Loading...</p>
+		</div>
+	);
 }
