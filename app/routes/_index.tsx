@@ -16,7 +16,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
 	return (
-		<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
+		<div className="min-h-screen bg-white">
 			<div className="container mx-auto px-4 py-16">
 				<div className="flex flex-col items-center gap-12">
 					<header className="flex flex-col items-center gap-8 text-center">
