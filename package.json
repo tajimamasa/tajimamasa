@@ -8,11 +8,14 @@
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "preview": "vite preview",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "fmt": "dprint fmt",
+    "fmt:check": "dprint check"
   },
   "dependencies": {
     "@remix-run/node": "*",
     "@remix-run/react": "*",
+    "dprint": "^0.50.1",
     "isbot": "^4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
