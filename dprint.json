@@ -55,7 +55,10 @@
     "typeAssertion.spaceBeforeExpression": true,
     "whileStatement.spaceAfterWhileKeyword": true,
     "ignoreNodeCommentText": "dprint-ignore",
-    "ignoreFileCommentText": "dprint-ignore-file"
+    "ignoreFileCommentText": "dprint-ignore-file",
+    "importDeclaration.sortNamedImports": "maintain",
+    "importDeclaration.preferSingleLine": true,
+    "module.sortImportDeclarations": "maintain"
   },
   "json": {},
   "markdown": {},
