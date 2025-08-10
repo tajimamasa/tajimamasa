@@ -1,0 +1,39 @@
+/* Markdown prose styles for README content display */
+.markdown-content {
+	@apply prose prose-lg prose-slate dark:prose-invert max-w-none;
+	
+	/* Headings */
+	@apply prose-headings:font-bold;
+	@apply prose-h1:text-3xl prose-h1:text-gray-900 dark:prose-h1:text-gray-100;
+	@apply prose-h1:border-b prose-h1:border-gray-200 dark:prose-h1:border-gray-700;
+	@apply prose-h1:pb-3 prose-h1:mb-6;
+	@apply prose-h2:text-2xl prose-h2:text-gray-800 dark:prose-h2:text-gray-200;
+	@apply prose-h2:mt-8 prose-h2:mb-4;
+	@apply prose-h3:text-xl prose-h3:text-gray-700 dark:prose-h3:text-gray-300;
+	@apply prose-h3:mt-6 prose-h3:mb-3;
+	
+	/* Text elements */
+	@apply prose-p:text-gray-600 dark:prose-p:text-gray-400;
+	@apply prose-p:leading-relaxed;
+	@apply prose-strong:text-gray-800 dark:prose-strong:text-gray-200;
+	
+	/* Code styles */
+	@apply prose-code:text-purple-600 dark:prose-code:text-purple-400;
+	@apply prose-code:bg-gray-100 dark:prose-code:bg-gray-800;
+	@apply prose-code:px-1 prose-code:py-0.5 prose-code:rounded;
+	@apply prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950;
+	@apply prose-pre:border prose-pre:border-gray-200 dark:prose-pre:border-gray-800;
+	
+	/* Links */
+	@apply prose-a:text-blue-600 dark:prose-a:text-blue-400;
+	@apply prose-a:no-underline hover:prose-a:underline;
+	
+	/* Blockquotes */
+	@apply prose-blockquote:border-l-4 prose-blockquote:border-blue-500;
+	@apply prose-blockquote:bg-blue-50 dark:prose-blockquote:bg-blue-950/20;
+	@apply prose-blockquote:px-4 prose-blockquote:py-2 prose-blockquote:rounded-r;
+	
+	/* Lists */
+	@apply prose-ul:list-disc prose-ol:list-decimal;
+	@apply prose-li:text-gray-600 dark:prose-li:text-gray-400;
+}
